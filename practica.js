@@ -20,3 +20,76 @@ function miFuncion() {
 }
 
 console.log(miFuncion());
+
+// Practica de las condicionales else if
+
+// const tipoDeSuscripcion = prompt("Elige entre los planes 'Free', 'Basic', 'Expert' y 'Expert+'");
+
+// if (tipoDeSuscripcion === "Free") {
+//     console.log("Solo puedes tomar los cursos gratis");
+
+// } else if (tipoDeSuscripcion === "Basic") {
+//     console.log("Puedes tomar casi todos los cursos de Platzi durante un mes");
+
+// } else if (tipoDeSuscripcion === "Expert") {
+//     console.log("Puedes tomar casi todos los cursos de Platzi durante un año");
+
+// } else if (tipoDeSuscripcion === "Expert+") {
+//     console.log("Tú y alguien más pueden tomar TODOS los cursos de Platzi durante un año");
+// }
+
+// Practica condicionales solo con if
+
+// const tipoDeSuscripcion1 = prompt("Elige entre los planes 'Free', 'Basic', 'Expert' y 'Expert+'");
+
+// if (tipoDeSuscripcion1 === "Free") {
+//     console.log("Solo puedes tomar los cursos gratis");
+
+// } else {
+//     if (tipoDeSuscripcion1 === "Free") {
+//         console.log("Solo puedes tomar los cursos gratis");
+
+//     } else {
+//         if (tipoDeSuscripcion1 === "Basic") {
+//             console.log("Puedes tomar casi todos los cursos de Platzi durante un mes");
+
+//         } else {
+//             if (tipoDeSuscripcion1 === "Expert") {
+//                 console.log("Puedes tomar casi todos los cursos de Platzi durante un año");
+
+//             } else {
+//                 if (tipoDeSuscripcion1 === "Expert+") {
+//                     console.log("Tú y alguien más pueden tomar TODOS los cursos de Platzi durante un año");
+
+//                 }
+//             }
+//         }
+//     }
+// }
+
+
+//Ciclos
+
+// let i = 0;
+
+// while (i < 5) {
+//     console.log("El valor de is es: " + i);
+//     i++;
+// }
+
+// i = 10;
+
+// while (i >= 2) {
+//     console.log("El valor de i es: " + i);
+//     i--;
+// }
+
+//Preguntale al usuario
+
+var respuesta = prompt("Cuánto es 2 + 2?");
+
+if (respuesta == 4) {
+    console.log("Felicidades!");
+} else {
+    console.log("Volvamos a empezar :(");
+}
